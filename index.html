@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="style-simon.css">
 </head>
 <body>
-<audio preload="auto" id="sound-green">
+<audio preload="auto" id="greenSound">
     <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3">
 </audio>
-<audio preload="auto" id="sound-red">
+<audio preload="auto" id="redSound">
     <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3">
 </audio>
-<audio preload="auto" id="sound-yellow">
+<audio preload="auto" id="yellowSound">
     <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3">
 </audio>
-<audio preload="auto" id="sound-blue">
+<audio preload="auto" id="blueSound">
     <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3">
 </audio>
 
@@ -28,10 +28,10 @@
     <div class="spacer"></div>
 
     <div id="gameField">
-        <div class="card gamecell" id="cell1"></div>
-        <div class="card gamecell" id="cell2"></div>
-        <div class="card gamecell" id="cell3"></div>
-        <div class="card gamecell" id="cell4"></div>
+        <div class="card gamecell" id="green"></div>
+        <div class="card gamecell" id="red"></div>
+        <div class="card gamecell" id="yellow"></div>
+        <div class="card gamecell" id="blue"></div>
     </div>
     <div id="scoreboard">
         <div class="card score" id="startButton">Start!</div>

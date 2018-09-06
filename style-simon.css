@@ -20,33 +20,33 @@
     border: 2px solid black;
     border-radius: 30px;
 }
-#cell1 {
+#green {
     background-color: darkgreen;
     float: left;
 }
-#cell2 {
+#red {
     background-color: darkred;
     display: inline-block;
 }
-#cell3 {
+#yellow {
     background-color: darkgoldenrod;
     clear: left;
     float: left;
 }
-#cell4 {
+#blue {
     background-color: darkblue;
     float: left;
 }
-#cell1:active {
-    background-color: green;
+#green:active {
+    background-color: lightgreen;
 }
-#cell2:active {
+#red:active {
     background-color: red;
 }
-#cell3:active {
+#yellow:active {
     background-color: yellow;
 }
-#cell4:active {
+#blue:active {
     background-color: blue;
 }
 #scoreboard{
