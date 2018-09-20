@@ -8,30 +8,28 @@
     <link rel="stylesheet" href="style-simon.css">
 </head>
 <body>
-<audio preload="auto" id="greenSound">
-    <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3">
-</audio>
-<audio preload="auto" id="redSound">
-    <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3">
-</audio>
-<audio preload="auto" id="yellowSound">
-    <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3">
-</audio>
-<audio preload="auto" id="blueSound">
-    <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3">
-</audio>
 
 <div class="container-fluid">
     <div class="card-header">
-        <h5>Welcome to Simple Simon!</h5>
+        <h5>Welcome to Simone!</h5>
+        <p>A game that infringes on ZERO trademarks!</p>
     </div>
-    <div class="spacer"></div>
+    <div class="spacer">
+
+        <p id="status">Are you ready?</p>
+
+    </div>
 
     <div id="gameField">
-        <div class="card gamecell" id="green"></div>
-        <div class="card gamecell" id="red"></div>
-        <div class="card gamecell" id="yellow"></div>
-        <div class="card gamecell" id="blue"></div>
+        <div id="background">
+            <div class="card gamecell" onmousedown="mouseDown()" onmouseup="mouseUp()" id="green"></div>
+            <div class="card gamecell" onmousedown="mouseDown()" onmouseup="mouseUp()" id="red"></div>
+            <div class="card gamecell" onmousedown="mouseDown()" onmouseup="mouseUp()" id="yellow"></div>
+            <div class="card gamecell" onmousedown="mouseDown()" onmouseup="mouseUp()" id="blue"></div>
+            <div id="center">
+                <p id="centerText"></p>
+            </div>
+        </div>
     </div>
     <div id="scoreboard">
         <div class="card score" id="startButton">Start!</div>

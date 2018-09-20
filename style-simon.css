@@ -1,41 +1,89 @@
+body {
+    background-image: url("gravel.png");
+}
 .card-header {
     text-align: center;
 }
+#status{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
 .spacer {
-    background-color: white;
     height: 50px;
     width: 100%;
+    margin-top: 1em;
 }
 #gameField {
     width: 620px;
     height: 620px;
     margin: 0 auto;
-    text-align: justify;
+    position: relative;
+}
+#background{
+    width:620px;
+    height: 620px;
+    z-index:0;
+    background-color: black;
+    border-radius: 310px;
+    position: absolute;
+    top: 1em;
+}
+.gamecell{
+    float: left;
+    margin: 4px;
+    width: 280px;
+    height: 280px;
+    border: 2px solid black;
+    /*border-radius: 30px;*/
+}
+#center{
+    background: black;
+    border-radius: 125px;
+    z-index: 10;
+    position: absolute;
+    top: 210px;
+    left: 210px;
+    width: 200px;
+    height: 200px;
+}
+#centerText{
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 65px;
 }
 
-.gamecell{
-    margin: 4px;
-    width: 300px;
-    height: 300px;
-    border: 2px solid black;
-    border-radius: 30px;
-}
 #green {
     background-color: darkgreen;
-    float: left;
+    border-top-left-radius: 300px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
 }
 #red {
     background-color: darkred;
     display: inline-block;
+    border-top-right-radius: 300px;
+    position: absolute;
+    top: 20px;
+    left: 310px;
 }
 #yellow {
     background-color: darkgoldenrod;
-    clear: left;
-    float: left;
+    border-bottom-left-radius: 300px;
+    position: absolute;
+    top: 310px;
+    left: 20px;
 }
 #blue {
     background-color: darkblue;
-    float: left;
+    border-bottom-right-radius: 300px;
+    position: absolute;
+    top: 310px;
+    left: 310px;
 }
 #green:active {
     background-color: lightgreen;
@@ -47,7 +95,7 @@
     background-color: yellow;
 }
 #blue:active {
-    background-color: blue;
+    background-color: lightblue;
 }
 #scoreboard{
     width: 500px;
