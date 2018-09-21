@@ -57,44 +57,52 @@ body {
 }
 
 #green {
-    background-color: darkgreen;
     border-top-left-radius: 300px;
     position: absolute;
     top: 20px;
     left: 20px;
 }
+.green {
+    background-color: darkgreen;
+}
 #red {
-    background-color: darkred;
     display: inline-block;
     border-top-right-radius: 300px;
     position: absolute;
     top: 20px;
     left: 310px;
 }
+.red {
+    background-color: darkred;
+}
 #yellow {
-    background-color: darkgoldenrod;
     border-bottom-left-radius: 300px;
     position: absolute;
     top: 310px;
     left: 20px;
 }
+.yellow {
+    background-color: darkgoldenrod;
+}
 #blue {
-    background-color: darkblue;
     border-bottom-right-radius: 300px;
     position: absolute;
     top: 310px;
     left: 310px;
 }
-#green:active {
+.blue {
+    background-color: darkblue;
+}
+.green.active {
     background-color: lightgreen;
 }
-#red:active {
+.red.active {
     background-color: red;
 }
-#yellow:active {
+.yellow.active {
     background-color: yellow;
 }
-#blue:active {
+.blue.active {
     background-color: lightblue;
 }
 #scoreboard{
