@@ -65,7 +65,7 @@ body {
 .green {
     background-color: darkgreen;
 }
-##green:active{
+#green:active{
     background-color: lightgreen;
 }
 #red {
