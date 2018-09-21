@@ -65,6 +65,9 @@ body {
 .green {
     background-color: darkgreen;
 }
+##green:active{
+    background-color: lightgreen;
+}
 #red {
     display: inline-block;
     border-top-right-radius: 300px;
@@ -75,6 +78,9 @@ body {
 .red {
     background-color: darkred;
 }
+#red:active {
+    background-color: red;
+}
 #yellow {
     border-bottom-left-radius: 300px;
     position: absolute;
@@ -84,6 +90,9 @@ body {
 .yellow {
     background-color: darkgoldenrod;
 }
+#yellow:active{
+    background-color: yellow;
+}
 #blue {
     border-bottom-right-radius: 300px;
     position: absolute;
@@ -92,6 +101,9 @@ body {
 }
 .blue {
     background-color: darkblue;
+}
+#blue:active{
+    background-color: lightblue;
 }
 .green.active {
     background-color: lightgreen;
