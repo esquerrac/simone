@@ -180,6 +180,7 @@ function checkMoves(array) {
     } else {
         console.log("Start next round-move check complete");
         roundCount++;
+        $("#counter").html("Score : "+roundCount);
         $("#status").text("Great Job!  Get ready for the next round!");
         generatePattern();
     }
@@ -189,7 +190,7 @@ function resetGame() {
     pattern = [];
     userPattern = [];
     roundCount = 0;
-    $('#scoreNum').html(`${roundCount}`);
+    $("#counter").html("Score : "+roundCount);
 }
 
 $('#startButton').click(function () {
