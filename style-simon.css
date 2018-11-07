@@ -62,7 +62,7 @@ body {
     top: 20px;
     left: 20px;
 }
-.green {
+.greenOff {
     background-color: darkgreen;
 }
 #green:active{
@@ -75,7 +75,7 @@ body {
     top: 20px;
     left: 310px;
 }
-.red {
+.redOff {
     background-color: darkred;
 }
 #red:active {
@@ -87,7 +87,7 @@ body {
     top: 310px;
     left: 20px;
 }
-.yellow {
+.yellowOff {
     background-color: darkgoldenrod;
 }
 #yellow:active{
@@ -99,22 +99,22 @@ body {
     top: 310px;
     left: 310px;
 }
-.blue {
+.blueOff {
     background-color: darkblue;
 }
 #blue:active{
     background-color: lightblue;
 }
-.green.active {
+.greenOn {
     background-color: lightgreen;
 }
-.red.active {
+.redOn {
     background-color: red;
 }
-.yellow.active {
+.yellowOn {
     background-color: yellow;
 }
-.blue.active {
+.blueOn {
     background-color: lightblue;
 }
 #scoreboard{
